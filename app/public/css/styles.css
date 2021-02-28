@@ -82,7 +82,9 @@ a {
   width: 90%;
   height: 45px;
   outline: none;
-  padding: 10px; }
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--VeryDarkBlue); }
 
 .hero {
   width: 100%;
@@ -277,5 +279,63 @@ a {
         font-size: 15px; }
       .card__user .card__info .card__ocupation {
         font-size: 13px; }
+
+.info {
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  background-color: var(--DesaturatedBlue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .info__texts {
+    width: 600px;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .info__texts .info__title {
+      color: var(--White);
+      margin: 10px; }
+    .info__texts .info__description {
+      color: var(--White);
+      margin: 10px;
+      font-size: 16px; }
+  .info__form {
+    width: 600px;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .info__form .form__input {
+      margin: 10px; }
+    .info__form .btn {
+      margin: 10px; }
+
+@media (max-width: 800px) {
+  .info {
+    width: 100%;
+    height: 280px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .info__texts {
+      width: 90%;
+      height: 130px; }
+      .info__texts .info__title {
+        font-size: 25px;
+        text-align: center; }
+      .info__texts .info__description {
+        text-align: center;
+        font-size: 14px; }
+    .info__form {
+      width: 100%;
+      height: 120px; }
+      .info__form .form__input {
+        margin: 5px auto; }
+      .info__form .btn {
+        margin: 5px auto; } }
 
 /*# sourceMappingURL=styles.css.map */
