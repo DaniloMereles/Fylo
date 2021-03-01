@@ -1,10 +1,14 @@
 .form{
     &__input{
         width: 90%;
-        height: 45px;
+        height: 40px;
         outline: none;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid var(--VeryDarkBlue);
+    }
+
+    .btn{
+        height: 40px;
     }
 }
